@@ -244,7 +244,8 @@
     "layout_cta_above_title": "Заголовок снизу (низ блока y=1520), кнопка вплотную над заголовком (низ кнопки на 18px выше верха плашки заголовка).",
     "cta_above_title_brolls": [
       "new-4"
-    ]
+    ],
+    "hdr": "Все B-roll в библиотеке - SDR bt709. HDR-исходники (HLG/bt2020, частые с iPhone) при добавлении переводить в SDR: zscale=t=linear:npl=150:tin=<arib-std-b67|bt709>:pin=bt2020:min=bt2020nc,format=gbrpf32le,zscale=p=bt709,tonemap=mobius:param=0.5,zscale=t=bt709:m=bt709:r=tv,format=yuv420p + флаги -color_primaries bt709 -color_trc bt709 -colorspace bt709."
   },
   "schedule": {
     "tz": "Asia/Irkutsk",
